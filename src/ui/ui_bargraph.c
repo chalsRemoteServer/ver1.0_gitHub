@@ -96,7 +96,7 @@ void ui_bargraph_init(UiBarGraph *g, uint16_t threshold, uint8_t tol_pct)
     g->threshold = clamp_u16(threshold, 0, 300);
     g->tol_pct   = tol_pct;
 
-    g->period_ms = 3000; // igual que Arduino
+    g->period_ms = 100; // 3000 igual que Arduino
     g->next_ms   = platform_millis() + g->period_ms;
 }
 

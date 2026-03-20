@@ -296,7 +296,7 @@ void initStaticBackground(void)
      EVE_scissor_size(EVE_HSIZE, EVE_VSIZE);
 
      EVE_color_rgb(BLACK);
-     EVE_cmd_text(338,18,24,EVE_OPT_CENTERX,"v0.5.5");
+     EVE_cmd_text(338,18,24,EVE_OPT_CENTERX,"v0.5.10");
 
 
      EVE_execute_cmd();

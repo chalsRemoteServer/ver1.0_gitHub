@@ -32,7 +32,7 @@
 //----------------------------------------------------------------------------------------------------------------
 
 
-#define EVE_ROTATE LANDSCAPE    // invertir o no la pantalla
+#define EVE_ROTATE INVERT    // invertir o no la pantalla
 #define PRESICION  PRESICION_  //PRESICION PIXEL
 
 #endif
